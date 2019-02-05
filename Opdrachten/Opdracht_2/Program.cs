@@ -10,6 +10,23 @@ namespace Opdracht_2
     {
         static void Main(string[] args)
         {
+            IVliegbaar s = new Superman();
+            IVliegbaar v = new Vliegtuig();
+
+            MaakVlucht(s);
+            Console.WriteLine();
+            MaakVlucht(v);
+
+            Console.ReadLine();
+        }
+        static void MaakVlucht(IVliegbaar vliegbaar)
+        {
+            vliegbaar.Opstijgen();
+            for(int i = 0; i < 3; i++)
+            {
+                vliegbaar.Vliegen();
+            }
+            vliegbaar.Landen();
         }
     }
 }

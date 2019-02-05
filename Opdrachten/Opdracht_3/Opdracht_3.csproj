@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{07E9EEF0-4570-4A21-8037-AC18BC37F8B2}</ProjectGuid>
+    <ProjectGuid>{57CB959D-51D4-443F-851A-2FB4A790CD95}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Opdracht_2</RootNamespace>
-    <AssemblyName>Opdracht_2</AssemblyName>
+    <RootNamespace>Opdracht_3</RootNamespace>
+    <AssemblyName>Opdracht_3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IVliegbaar.cs" />
+    <Compile Include="IPotlood.cs" />
+    <Compile Include="IPotloodSlijper.cs" />
+    <Compile Include="Potlood.cs" />
+    <Compile Include="PotloodSlijper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Superman.cs" />
-    <Compile Include="Vliegtuig.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
