@@ -17,5 +17,6 @@ namespace Opdracht_1
             this.Prijs = prijs;
             this.Aantal = aantal;
         }
+        public abstract override string ToString();
     }
 }
