@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Opdracht_2
+namespace Opdracht_3
 {
     class Program
     {
