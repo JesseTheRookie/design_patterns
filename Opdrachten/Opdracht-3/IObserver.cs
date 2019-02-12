@@ -8,5 +8,6 @@ namespace Opdracht_3
 {
     interface IObserver
     {
+        void Update(Nummer nummer);
     }
 }
