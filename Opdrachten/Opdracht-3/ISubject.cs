@@ -11,5 +11,6 @@ namespace Opdracht_3
         void AddObserver(IObserver observer);
         void RemoveObserver(IObserver observer);
         void NotifyObservers();
+        void NummerGewijzigd();
     }
 }

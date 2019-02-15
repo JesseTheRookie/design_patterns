@@ -47,6 +47,7 @@
     <Compile Include="IObserver.cs" />
     <Compile Include="ISubject.cs" />
     <Compile Include="MP3Player.cs" />
+    <Compile Include="Nummer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleMP3Display.cs" />
