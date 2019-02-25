@@ -41,5 +41,9 @@ namespace Model
         {
            this.huidigStation++;
         }
+        public Station Huidigstation()
+        {
+            return stations[huidigStation];
+        }
     }
 }
