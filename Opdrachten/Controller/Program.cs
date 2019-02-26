@@ -18,7 +18,7 @@ namespace Controller
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            TreinReis reis = new TreinReis();
+            ITreinReis reis = new TreinReis();
             ITreinController treinController = new TreinController(reis);
             Application.Run(new ControlPanel(treinController));
         }

@@ -42,7 +42,7 @@ namespace Model
         public void VolgendeStation()
         {
             int stationAantal = stations.Count;
-            if(stationAantal > stationAantal++)
+            if(stationAantal > stationAantal + 1)
             {
                 this.huidigStation++;
             }
@@ -50,6 +50,7 @@ namespace Model
             {
                 this.huidigStation = 0;
             }
+            this.NotifyObservers();
         }
         public Station HuidigStation()
         {

@@ -22,18 +22,21 @@ namespace Controller
         public ControlPanel(ITreinController treinController)
         {
             InitializeComponent();
-            station = treinReis.HuidigStation();
             this.TreinController = new TreinController(treinReis);
+            station = TreinController.HuidigStation();
         }
 
         private void btnVolgendStation_Click(object sender, EventArgs e)
         {
             TreinController.VolgendeStation();
+            station = TreinController.HuidigStation();
         }
 
         private void btnNewDisplay_Click(object sender, EventArgs e)
         {
             treinDisplay = new TreinDisplay(station.AankomstSpoort, station.Naam);
+            treinReis.AddObserver(treinDisplay);
+            treinDisplay.Update();
             treinDisplay.Show();
         }
 

@@ -31,10 +31,10 @@ namespace View
             lblSpoor.Text = Spoor;
             lblSpoor.Text = Station;
         }
-        public void Update()
+        public void Update(string spoor, string station)
         {
-            lblSpoor.Text = Spoor;
-            lblSpoor.Text = Station;
+            lblSpoor.Text = spoor;
+            lblStation.Text = station;
         }
     }
 }

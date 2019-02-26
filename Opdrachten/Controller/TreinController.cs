@@ -13,12 +13,17 @@ namespace Controller
         ITreinReis Reis { get; set; }
         public TreinController(ITreinReis reis)
         {
+            reis = new TreinReis();
             this.Reis = reis;
         }
 
         public void VolgendeStation()
         {
             Reis.VolgendeStation();
+        }
+        public Station HuidigStation()
+        {
+            return Reis.HuidigStation();
         }
     }
 
