@@ -12,12 +12,18 @@ using Model;
 
 namespace Controller
 {
-    public partial class Controller : Form
+    public partial class ControlPanel : Form
     {
-        TreinController TreinController = new TreinController();
-        public Controller()
+        ITreinDisplay treinDisplay;
+        ITreinController TreinController;
+        Station station;
+        TreinReis treinReis = new TreinReis();
+
+        public ControlPanel(ITreinController treinController)
         {
             InitializeComponent();
+            station = treinReis.HuidigStation();
+            this.TreinController = new TreinController(treinReis);
         }
 
         private void btnVolgendStation_Click(object sender, EventArgs e)
@@ -27,11 +33,13 @@ namespace Controller
 
         private void btnNewDisplay_Click(object sender, EventArgs e)
         {
-            Station station = TreinController.HuidigStation();
-            TreinDisplay treinDisplay = new TreinDisplay();
-            treinDisplay.lblStation.Text = station.Naam;
-            treinDisplay.lblSpoor.Text = station.AankomstSpoort;
+            treinDisplay = new TreinDisplay(station.AankomstSpoort, station.Naam);
             treinDisplay.Show();
+        }
+
+        private void ControlPanel_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

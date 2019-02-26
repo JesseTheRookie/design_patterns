@@ -4,20 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Model;
+using View;
 
 namespace Controller
 {
-    public class TreinController
+    public class TreinController : ITreinController
     {
-        public ITreinReis treinReis = new TreinReis();
+        ITreinReis Reis { get; set; }
+        public TreinController(ITreinReis reis)
+        {
+            this.Reis = reis;
+        }
 
         public void VolgendeStation()
         {
-            treinReis.VolgendeStation();
-        }
-        public Station HuidigStation()
-        {
-            return treinReis.HuidigStation();
+            Reis.VolgendeStation();
         }
     }
 

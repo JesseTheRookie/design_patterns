@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using View;
 
 namespace Model
 {
@@ -10,6 +11,7 @@ namespace Model
     {
         private List<Station> stations;
         private int huidigStation;
+        private List<ITreinDisplay> treinDisplays = new List<ITreinDisplay>();
 
         public TreinReis()
         {
@@ -19,27 +21,35 @@ namespace Model
             huidigStation = 0;
         }
 
-        public void AddObserver(Station observer)
+        public void AddObserver(ITreinDisplay observer)
         {
-            stations.Add(observer);
+            treinDisplays.Add(observer);
         }
 
         public void NotifyObservers()
         {
-            foreach(Station station in stations)
+            foreach(ITreinDisplay treinDisplay in treinDisplays)
             {
-                station.Update(station);
+                treinDisplay.Update();
             }
         }
 
-        public void RemoveObserver(Station observer)
+        public void RemoveObserver(ITreinDisplay observer)
         {
-            stations.Remove(observer);
+            treinDisplays.Remove(observer);
         }
 
         public void VolgendeStation()
         {
-           this.huidigStation++;
+            int stationAantal = stations.Count;
+            if(stationAantal > stationAantal++)
+            {
+                this.huidigStation++;
+            }
+            else
+            {
+                this.huidigStation = 0;
+            }
         }
         public Station HuidigStation()
         {

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Controller
 {
-    interface ITreinController
+    public interface ITreinController
     {
+        void VolgendeStation();
     }
 }

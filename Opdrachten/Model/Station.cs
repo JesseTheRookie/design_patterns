@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using View;
 
 namespace Model
 {
-    public class Station : IObserver
+    public class Station 
     {
         public string Naam { get; set; }
         public string AankomstSpoort { get; set; }
@@ -18,11 +19,6 @@ namespace Model
             this.AankomstSpoort = aankomstSpoor;
             this.AankomstTijd = aankomstTijd;
             this.VertrekTijd = vertrekTijd;
-        }
-
-        public void Update(Station station)
-        {
-            throw new NotImplementedException();
         }
     }
 }

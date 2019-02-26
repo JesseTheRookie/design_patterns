@@ -1,6 +1,6 @@
 ﻿namespace Controller
 {
-    partial class Controller
+    partial class ControlPanel
     {
         /// <summary>
         /// Required designer variable.
@@ -52,15 +52,16 @@
             this.btnNewDisplay.UseVisualStyleBackColor = true;
             this.btnNewDisplay.Click += new System.EventHandler(this.btnNewDisplay_Click);
             // 
-            // Controller
+            // ControlPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(290, 450);
             this.Controls.Add(this.btnNewDisplay);
             this.Controls.Add(this.btnVolgendStation);
-            this.Name = "Controller";
+            this.Name = "ControlPanel";
             this.Text = "Controller";
+            this.Load += new System.EventHandler(this.ControlPanel_Load);
             this.ResumeLayout(false);
 
         }

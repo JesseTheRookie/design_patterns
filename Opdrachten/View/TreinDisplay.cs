@@ -10,16 +10,31 @@ using System.Windows.Forms;
 
 namespace View
 {
-    public partial class TreinDisplay : Form
+    public partial class TreinDisplay : Form, ITreinDisplay
     {
-        public TreinDisplay()
+        private string Spoor;
+        private string Station;
+
+        public TreinDisplay(string spoor, string station)
         {
             InitializeComponent();
+            this.Spoor = spoor;
+            this.Station = station;
         }
 
         private void TreinDisplay_Load(object sender, EventArgs e)
         {
 
+        }
+        public void ReisInfoDisplay()
+        {
+            lblSpoor.Text = Spoor;
+            lblSpoor.Text = Station;
+        }
+        public void Update()
+        {
+            lblSpoor.Text = Spoor;
+            lblSpoor.Text = Station;
         }
     }
 }

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using View;
+using Model;
 
 namespace Controller
 {
@@ -16,7 +18,9 @@ namespace Controller
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Controller());
+            TreinReis reis = new TreinReis();
+            ITreinController treinController = new TreinController(reis);
+            Application.Run(new ControlPanel(treinController));
         }
     }
 }

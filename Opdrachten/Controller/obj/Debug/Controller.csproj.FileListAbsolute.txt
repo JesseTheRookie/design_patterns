@@ -5,10 +5,10 @@ C:\Users\jesse\source\repos\design_patterns\Opdrachten\Controller\bin\Debug\Mode
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Controller\bin\Debug\View.pdb
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Controller\bin\Debug\View.exe.config
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Controller\obj\Debug\Controller.csprojAssemblyReference.cache
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Controller\obj\Debug\Controller.Controller.resources
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Controller\obj\Debug\Controller.csproj.GenerateResource.cache
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Controller\obj\Debug\Controller.csproj.CopyComplete
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Controller\obj\Debug\Controller.pdb
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Controller\bin\Debug\Controller.exe
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Controller\obj\Debug\Controller.exe
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Controller\obj\Debug\Controller.ControlPanel.resources

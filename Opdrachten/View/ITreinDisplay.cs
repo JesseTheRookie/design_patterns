@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Model
+namespace View
 {
-    public interface IObserver
+    public interface ITreinDisplay
     {
-       void Update(Station station);
+        void Update();
+        void Show();
     }
 }
