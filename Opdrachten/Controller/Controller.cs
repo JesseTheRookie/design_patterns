@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using View;
+using Model;
 
 namespace Controller
 {
@@ -26,7 +27,10 @@ namespace Controller
 
         private void btnNewDisplay_Click(object sender, EventArgs e)
         {
+            Station station = TreinController.HuidigStation();
             TreinDisplay treinDisplay = new TreinDisplay();
+            treinDisplay.lblStation.Text = station.Naam;
+            treinDisplay.lblSpoor.Text = station.AankomstSpoort;
             treinDisplay.Show();
         }
     }

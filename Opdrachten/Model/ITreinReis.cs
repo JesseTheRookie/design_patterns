@@ -12,5 +12,6 @@ namespace Model
         void RemoveObserver(Station observer);
         void NotifyObservers();
         void VolgendeStation();
+        Station HuidigStation();
     }
 }

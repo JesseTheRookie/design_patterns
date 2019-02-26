@@ -16,5 +16,10 @@ namespace View
         {
             InitializeComponent();
         }
+
+        private void TreinDisplay_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

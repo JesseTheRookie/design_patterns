@@ -7,3 +7,4 @@ C:\Users\jesse\source\repos\design_patterns\Opdrachten\View\obj\Debug\View.cspro
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\View\obj\Debug\View.csproj.CoreCompileInputs.cache
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\View\obj\Debug\View.exe
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\View\obj\Debug\View.pdb
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\View\obj\Debug\View.csprojAssemblyReference.cache

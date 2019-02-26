@@ -81,6 +81,7 @@
             this.Controls.Add(this.label1);
             this.Name = "TreinDisplay";
             this.Text = "TreinDisplay";
+            this.Load += new System.EventHandler(this.TreinDisplay_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -90,7 +91,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblStation;
-        private System.Windows.Forms.Label lblSpoor;
+        public System.Windows.Forms.Label lblStation;
+        public System.Windows.Forms.Label lblSpoor;
     }
 }

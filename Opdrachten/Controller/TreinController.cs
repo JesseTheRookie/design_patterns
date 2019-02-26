@@ -15,6 +15,10 @@ namespace Controller
         {
             treinReis.VolgendeStation();
         }
+        public Station HuidigStation()
+        {
+            return treinReis.HuidigStation();
+        }
     }
 
 }
