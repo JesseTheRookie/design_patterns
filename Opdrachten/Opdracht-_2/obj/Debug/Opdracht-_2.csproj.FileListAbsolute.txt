@@ -1,0 +1,10 @@
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht-_2\bin\Debug\Opdracht-_2.exe.config
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht-_2\bin\Debug\Opdracht-_2.exe
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht-_2\bin\Debug\Opdracht-_2.pdb
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht-_2\obj\Debug\Opdracht-_2.csprojAssemblyReference.cache
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht-_2\obj\Debug\ConwayGameOfLife.Form1.resources
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht-_2\obj\Debug\Opdracht__2.Properties.Resources.resources
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht-_2\obj\Debug\Opdracht-_2.csproj.GenerateResource.cache
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht-_2\obj\Debug\Opdracht-_2.csproj.CoreCompileInputs.cache
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht-_2\obj\Debug\Opdracht-_2.exe
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht-_2\obj\Debug\Opdracht-_2.pdb

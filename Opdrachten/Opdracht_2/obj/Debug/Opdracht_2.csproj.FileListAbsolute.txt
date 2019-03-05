@@ -1,7 +1,0 @@
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht_2\bin\Debug\Opdracht_2.exe.config
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht_2\bin\Debug\Opdracht_2.exe
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht_2\bin\Debug\Opdracht_2.pdb
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht_2\obj\Debug\Opdracht_2.csproj.CoreCompileInputs.cache
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht_2\obj\Debug\Opdracht_2.exe
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht_2\obj\Debug\Opdracht_2.pdb
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht_2\obj\Debug\Opdracht_2.csprojAssemblyReference.cache
