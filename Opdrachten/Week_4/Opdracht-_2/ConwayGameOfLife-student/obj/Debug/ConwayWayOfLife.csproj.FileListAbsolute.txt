@@ -1,0 +1,1 @@
+c:\users\gerwin\documents\visual studio 2012\Projects\ConwayWayOfLife\ConwayWayOfLife\bin\Debug\ConwayWayOfLife.exe.config

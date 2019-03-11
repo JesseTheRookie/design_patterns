@@ -1,0 +1,6 @@
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht_-1\bin\Debug\Opdracht_-1.exe.config
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht_-1\bin\Debug\Opdracht_-1.exe
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht_-1\bin\Debug\Opdracht_-1.pdb
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht_-1\obj\Debug\Opdracht_-1.csproj.CoreCompileInputs.cache
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht_-1\obj\Debug\Opdracht_-1.exe
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Opdracht_-1\obj\Debug\Opdracht_-1.pdb

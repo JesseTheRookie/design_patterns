@@ -3,37 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht_1", "Opdracht_1\Opdracht_1.csproj", "{40CA1AAC-F0B2-4198-BD3F-4C6E856859EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht_1", "Week_1\Opdracht_1\Opdracht_1.csproj", "{40CA1AAC-F0B2-4198-BD3F-4C6E856859EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht_2", "Opdracht_2\Opdracht_2.csproj", "{07E9EEF0-4570-4A21-8037-AC18BC37F8B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht_2", "Week_1\Opdracht_2\Opdracht_2.csproj", "{07E9EEF0-4570-4A21-8037-AC18BC37F8B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week_1", "week_1", "{210045E7-421E-4DF2-A3F3-445020D48CAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht_3", "Opdracht_3\Opdracht_3.csproj", "{57CB959D-51D4-443F-851A-2FB4A790CD95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht_3", "Week_1\Opdracht_3\Opdracht_3.csproj", "{57CB959D-51D4-443F-851A-2FB4A790CD95}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week_2", "week_2", "{1AE566D5-D132-49C3-9853-85AA254DE38A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht-1", "Opdracht-1\Opdracht-1.csproj", "{779BBE71-DEF7-4E54-8049-174BCF71B337}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht-1", "Week_2\Opdracht_1\Opdracht-1.csproj", "{779BBE71-DEF7-4E54-8049-174BCF71B337}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht-2", "..\ConwayGameOfLife-student\Opdracht-2.csproj", "{B173BA7E-1DC2-4B08-B4C6-168A2C05C6B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht-2", "Week_2\Opdracht_2\Opdracht-2.csproj", "{B173BA7E-1DC2-4B08-B4C6-168A2C05C6B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht-3", "Opdracht-3\Opdracht-3.csproj", "{4D94CF46-1B9F-49B7-8639-D7D52F35BB6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht-3", "Week_2\Opdracht_3\Opdracht-3.csproj", "{4D94CF46-1B9F-49B7-8639-D7D52F35BB6D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week_3", "week_3", "{D2B34C0C-8849-4CE5-9086-B68122B54AAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "Controller\Controller.csproj", "{F6B644A8-3763-4DE6-A856-7C4E8BEF37AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "Week_3\Controller\Controller.csproj", "{F6B644A8-3763-4DE6-A856-7C4E8BEF37AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{5783356D-6E55-4CBA-BD49-6B381A597F7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Week_3\Model\Model.csproj", "{5783356D-6E55-4CBA-BD49-6B381A597F7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "View\View.csproj", "{606605E2-E4DA-497D-8BC2-615CED9E2A1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "Week_3\View\View.csproj", "{606605E2-E4DA-497D-8BC2-615CED9E2A1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht", "Opdracht\Opdracht.csproj", "{A56E9C7F-8F61-46ED-879A-8A62D425343C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht", "Week_3\Opdracht\Opdracht.csproj", "{A56E9C7F-8F61-46ED-879A-8A62D425343C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week_4", "week_4", "{A9066631-F555-45C4-AE59-C905DCF2CCC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht_-1", "Opdracht_-1\Opdracht_-1.csproj", "{30CE257E-27D0-48FC-97C7-0AE8CD02D1E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht_-1", "Week_4\Opdracht_-1\Opdracht_-1.csproj", "{30CE257E-27D0-48FC-97C7-0AE8CD02D1E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht-_2", "Opdracht-_2\Opdracht-_2.csproj", "{890072E3-3D56-4C20-B381-6B5A16A68EE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht-_2", "Week_4\Opdracht-_2\Opdracht-_2.csproj", "{890072E3-3D56-4C20-B381-6B5A16A68EE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht-_3", "Week_4\Opdracht-_3\Opdracht-_3.csproj", "{BC655073-A03F-46FE-8F48-8139E6ECD748}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,10 @@ Global
 		{890072E3-3D56-4C20-B381-6B5A16A68EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{890072E3-3D56-4C20-B381-6B5A16A68EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{890072E3-3D56-4C20-B381-6B5A16A68EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC655073-A03F-46FE-8F48-8139E6ECD748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC655073-A03F-46FE-8F48-8139E6ECD748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC655073-A03F-46FE-8F48-8139E6ECD748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC655073-A03F-46FE-8F48-8139E6ECD748}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +112,7 @@ Global
 		{A56E9C7F-8F61-46ED-879A-8A62D425343C} = {D2B34C0C-8849-4CE5-9086-B68122B54AAB}
 		{30CE257E-27D0-48FC-97C7-0AE8CD02D1E9} = {A9066631-F555-45C4-AE59-C905DCF2CCC0}
 		{890072E3-3D56-4C20-B381-6B5A16A68EE5} = {A9066631-F555-45C4-AE59-C905DCF2CCC0}
+		{BC655073-A03F-46FE-8F48-8139E6ECD748} = {A9066631-F555-45C4-AE59-C905DCF2CCC0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B16C8A67-7A46-4253-8A38-94C8C013B7DF}

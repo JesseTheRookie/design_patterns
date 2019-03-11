@@ -1,0 +1,8 @@
+C:\Users\gerwin\Documents\Visual Studio 2012\Projects\ConwayGameOfLife\ConwayGameOfLife-TemplatePattern\bin\Debug\ConwayGameOfLife.exe.config
+C:\Users\gerwin\Documents\Visual Studio 2012\Projects\ConwayGameOfLife\ConwayGameOfLife-TemplatePattern\bin\Debug\ConwayGameOfLife.exe
+C:\Users\gerwin\Documents\Visual Studio 2012\Projects\ConwayGameOfLife\ConwayGameOfLife-TemplatePattern\bin\Debug\ConwayGameOfLife.pdb
+C:\Users\gerwin\Documents\Visual Studio 2012\Projects\ConwayGameOfLife\ConwayGameOfLife-TemplatePattern\obj\Debug\ConwayGameOfLife.Form1.resources
+C:\Users\gerwin\Documents\Visual Studio 2012\Projects\ConwayGameOfLife\ConwayGameOfLife-TemplatePattern\obj\Debug\ConwayGameOfLife.Properties.Resources.resources
+C:\Users\gerwin\Documents\Visual Studio 2012\Projects\ConwayGameOfLife\ConwayGameOfLife-TemplatePattern\obj\Debug\ConwayGameOfLife-Template.csproj.GenerateResource.Cache
+C:\Users\gerwin\Documents\Visual Studio 2012\Projects\ConwayGameOfLife\ConwayGameOfLife-TemplatePattern\obj\Debug\ConwayGameOfLife.exe
+C:\Users\gerwin\Documents\Visual Studio 2012\Projects\ConwayGameOfLife\ConwayGameOfLife-TemplatePattern\obj\Debug\ConwayGameOfLife.pdb

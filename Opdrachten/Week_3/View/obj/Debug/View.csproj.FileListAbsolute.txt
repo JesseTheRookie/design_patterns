@@ -1,0 +1,10 @@
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\View\bin\Debug\View.exe.config
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\View\bin\Debug\View.exe
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\View\bin\Debug\View.pdb
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\View\obj\Debug\View.csprojAssemblyReference.cache
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\View\obj\Debug\View.Properties.Resources.resources
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\View\obj\Debug\View.TreinDisplay.resources
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\View\obj\Debug\View.csproj.GenerateResource.cache
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\View\obj\Debug\View.exe
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\View\obj\Debug\View.pdb
