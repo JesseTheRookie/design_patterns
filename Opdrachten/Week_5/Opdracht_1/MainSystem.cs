@@ -9,13 +9,18 @@ namespace Opdracht_1
     class MainSystem 
     {
         Logger Logger = Logger.GetInstance();
-        public void DoSomeMainWork(string main, string text)
+        SubSystem SubSystem = new SubSystem();
+
+        protected void DoSomeMainWork()
         {
-            Logger.Log(main, text);
+            Logger.Log("Main", "doing some main work");
         }
+
         public MainSystem()
         {
-
+            DoSomeMainWork();
+            SubSystem.DoSomeMoreWork();
+            SubSystem.DoSomeWork();
         }
     }
 }

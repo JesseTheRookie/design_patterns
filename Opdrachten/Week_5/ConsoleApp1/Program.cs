@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Opdracht_1
+namespace ConsoleApp1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            MainSystem main = new MainSystem();
-            Console.ReadKey();
+
         }
     }
 }

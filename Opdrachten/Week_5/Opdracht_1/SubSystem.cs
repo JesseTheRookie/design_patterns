@@ -8,17 +8,16 @@ namespace Opdracht_1
 {
     class SubSystem
     {
+        Logger Logger = Logger.GetInstance();
+
         public void DoSomeMoreWork()
         {
-
+            Logger.Log("Subsystem", "Doing some more work");
         }
+
         public void DoSomeWork()
         {
-
-        }
-        public SubSystem()
-        {
-
+            Logger.Log("Subsystem", "Doing some work");
         }
     }
 }
