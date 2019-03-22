@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ComputerFactory.cs" />
+    <Compile Include="FactoryChildren.cs" />
     <Compile Include="HardwareClasses.cs" />
     <Compile Include="HardwareInterfaces.cs" />
     <Compile Include="Program.cs" />

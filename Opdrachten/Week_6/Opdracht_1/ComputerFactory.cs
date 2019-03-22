@@ -11,16 +11,20 @@ namespace Opdracht_1
         public ComputerFactory CreateComputer()
         {
             ComputerFactory computerFactory = MakeComputer();
-            HardDisk hardDisk = new HardDisk();
-            Monitor monitor = new Monitor();
-            Processor processor = new Processor();
+            HardDisk hardDisk = MakeHardDisk();
+            Monitor monitor = MakeMonitor();
+            Processor processor = MakeProcessor();
+
+            hardDisk.StoreData();
+            monitor.Display();
+            processor.PerformOperation();
 
             return computerFactory;
         }
 
-        public virtual ComputerFactory MakeComputer() { return new ComputerFactory(); }
-        protected virtual IHardDisk MakeHardDisk() { return new HardDisk(); }
-        protected virtual IMonitor MakeMonitor() { return new Monitor(); }
-        protected virtual IProcessor MakeProcessor() { return new Processor(); } 
+        protected virtual ComputerFactory MakeComputer() { return new ComputerFactory(); }
+        protected virtual HardDisk MakeHardDisk() { return new HardDisk(); }
+        protected virtual Monitor MakeMonitor() { return new Monitor(); }
+        protected virtual Processor MakeProcessor() { return new Processor(); } 
     }
 }

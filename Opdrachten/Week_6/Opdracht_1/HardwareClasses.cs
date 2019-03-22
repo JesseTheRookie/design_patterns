@@ -9,65 +9,65 @@ namespace Opdracht_1
     //Default hardware
     public class HardDisk : IHardDisk
     {
-        public void StoreData()
+        public virtual void StoreData()
         {
             Console.WriteLine("Storing data");
         }
     }
     public class Monitor : IMonitor
     {
-        public void Display()
+        public virtual void Display()
         {
             Console.WriteLine("Displaying stuff");
         }
     }
     public class Processor : IProcessor
     {
-        public void PerformOperation()
+        public virtual void PerformOperation()
         {
             Console.WriteLine("Processing stuff");
         }
     }
     //Cheap hardware
-    public class CheapHardDisk : IHardDisk
+    public class CheapHardDisk : HardDisk
     {
-        public void StoreData()
+        public override void StoreData()
         {
             Console.WriteLine("Storing data not so quickly");
         }
     }
-    public class CheapMonitor : IMonitor
+    public class CheapMonitor : Monitor
     {
-        public void Display()
+        public override void Display()
         {
             Console.WriteLine("Displaying stuff poorly");
         }
     }
-    public class CheapProcessor : IProcessor
+    public class CheapProcessor : Processor
     {
-        public void PerformOperation()
+        public override void PerformOperation()
         {
             Console.WriteLine("Performing operation not so quick");
         }
     }
     //Expensive hardware
-    public class ExpensiveHardDisk : IHardDisk
+    public class ExpensiveHardDisk : HardDisk
     {
-        public void StoreData()
+        public override void StoreData()
         {
             Console.WriteLine("Storing data very quick");
         }
     }
-    public class ExpensiveMonitor : IMonitor
+    public class ExpensiveMonitor : Monitor
     {
-        public void Display()
+        public override void Display()
         {
             Console.WriteLine("Displaying stuff very nice");
         }
     }
-    public class ExpensiveProcessor : IProcessor
+    public class ExpensiveProcessor : Processor
     {
-        public void PerformOperation()
+        public override void PerformOperation()
         {
             Console.WriteLine("Performing operation very quick");
         }
