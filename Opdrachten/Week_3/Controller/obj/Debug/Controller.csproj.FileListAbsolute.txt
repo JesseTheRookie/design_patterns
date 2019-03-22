@@ -12,17 +12,3 @@ C:\Users\jesse\source\repos\design_patterns\Opdrachten\Controller\obj\Debug\Cont
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Controller\obj\Debug\Controller.csproj.CopyComplete
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Controller\obj\Debug\Controller.exe
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Controller\obj\Debug\Controller.pdb
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Controller\bin\Debug\Controller.exe
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Controller\bin\Debug\Controller.pdb
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Controller\bin\Debug\Model.dll
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Controller\bin\Debug\View.exe
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Controller\bin\Debug\Model.pdb
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Controller\bin\Debug\View.pdb
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Controller\bin\Debug\View.exe.config
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Controller\obj\Debug\Controller.csprojAssemblyReference.cache
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Controller\obj\Debug\Controller.ControlPanel.resources
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Controller\obj\Debug\Controller.csproj.GenerateResource.cache
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Controller\obj\Debug\Controller.csproj.CopyComplete
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Controller\obj\Debug\Controller.exe
-C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Controller\obj\Debug\Controller.pdb

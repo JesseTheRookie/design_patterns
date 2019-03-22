@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Opdracht_1
 {
-    interface IMonitor
+    class FactoryChildren
     {
-        void Display();
     }
 }

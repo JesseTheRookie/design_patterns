@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace Opdracht_1
 {
+    interface IHardDisk
+    {
+        void StoreData();
+    }
+    interface IMonitor
+    {
+        void Display();
+    }
     interface IProcessor
     {
         void PerformOperation();

@@ -6,36 +6,21 @@ using System.Threading.Tasks;
 
 namespace Opdracht_1
 {
-    abstract class ComputerFactory
+    class ComputerFactory
     {
-        protected abstract IHardDisk MakeHardDisk();
+        public ComputerFactory CreateComputer()
+        {
+            ComputerFactory computerFactory = MakeComputer();
+            HardDisk hardDisk = new HardDisk();
+            Monitor monitor = new Monitor();
+            Processor processor = new Processor();
 
-        protected virtual IMonitor MakeMonitor()
-        {
-            return new Monitor();
+            return computerFactory;
         }
-        protected abstract IProcessor MakeProcessor();
-    
-    }
-    public class HardDisk : IHardDisk
-    {
-        public virtual void StoreData()
-        {
-            Console.WriteLine("Stores data");
-        }
-    }
-    public class Monitor : IMonitor
-    {
-        public void Display()
-        {
-            Console.WriteLine("Displaying stuff");
-        }
-    }
-    public class Processor : IProcessor
-    {
-        public void PerformOperation()
-        {
-            Console.WriteLine("Processing stuff");
-        }
+
+        public virtual ComputerFactory MakeComputer() { return new ComputerFactory(); }
+        protected virtual IHardDisk MakeHardDisk() { return new HardDisk(); }
+        protected virtual IMonitor MakeMonitor() { return new Monitor(); }
+        protected virtual IProcessor MakeProcessor() { return new Processor(); } 
     }
 }
