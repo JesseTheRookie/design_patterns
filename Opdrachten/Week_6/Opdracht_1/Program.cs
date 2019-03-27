@@ -11,13 +11,13 @@ namespace Opdracht_1
         static void Main(string[] args)
         {
             Console.WriteLine("[shop creating cheap computers]");
-            ComputerFactory cheapComputerFactory = new CheapComputerFactory();
+            ComputerShop cheapComputerFactory = new CheapComputerShop();
             cheapComputerFactory.CreateComputer();
 
             Console.WriteLine();
 
             Console.WriteLine("[shop creating expensive computers]");
-            ComputerFactory expensiveComputerFactory = new ExpensiveComputerFactory();
+            ComputerShop expensiveComputerFactory = new ExpensiveComputerShop();
             expensiveComputerFactory.CreateComputer();
 
             Console.ReadKey();

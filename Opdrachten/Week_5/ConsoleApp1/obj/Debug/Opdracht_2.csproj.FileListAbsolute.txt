@@ -1,0 +1,6 @@
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_5\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_5\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_5\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_5\ConsoleApp1\obj\Debug\Opdracht_2.csproj.CoreCompileInputs.cache
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_5\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_5\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Opdracht_1
 {
-    class ComputerFactory
+    class ComputerShop
     {
-        public ComputerFactory CreateComputer()
+        public ComputerShop CreateComputer()
         {
-            ComputerFactory computerFactory = MakeComputer();
+            ComputerShop computerFactory = MakeComputer();
             HardDisk hardDisk = MakeHardDisk();
             Monitor monitor = MakeMonitor();
             Processor processor = MakeProcessor();
@@ -22,7 +22,7 @@ namespace Opdracht_1
             return computerFactory;
         }
 
-        protected virtual ComputerFactory MakeComputer() { return new ComputerFactory(); }
+        protected virtual ComputerShop MakeComputer() { return new ComputerShop(); }
         protected virtual HardDisk MakeHardDisk() { return new HardDisk(); }
         protected virtual Monitor MakeMonitor() { return new Monitor(); }
         protected virtual Processor MakeProcessor() { return new Processor(); } 

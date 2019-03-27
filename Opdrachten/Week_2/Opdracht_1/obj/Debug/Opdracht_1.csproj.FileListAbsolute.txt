@@ -1,0 +1,7 @@
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_2\Opdracht_1\bin\Debug\Opdracht-1.exe.config
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_2\Opdracht_1\bin\Debug\Opdracht-1.exe
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_2\Opdracht_1\bin\Debug\Opdracht-1.pdb
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_2\Opdracht_1\obj\Debug\Opdracht_1.csprojAssemblyReference.cache
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_2\Opdracht_1\obj\Debug\Opdracht_1.csproj.CoreCompileInputs.cache
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_2\Opdracht_1\obj\Debug\Opdracht-1.exe
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_2\Opdracht_1\obj\Debug\Opdracht-1.pdb

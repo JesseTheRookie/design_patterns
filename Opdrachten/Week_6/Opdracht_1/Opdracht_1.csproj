@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ComputerFactory.cs" />
-    <Compile Include="FactoryChildren.cs" />
+    <Compile Include="ComputerShop.cs" />
+    <Compile Include="ShopChildren.cs" />
     <Compile Include="HardwareClasses.cs" />
     <Compile Include="HardwareInterfaces.cs" />
     <Compile Include="Program.cs" />
