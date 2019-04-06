@@ -12,7 +12,6 @@ namespace ConsoleApp1
         public CorrectPinState(ATMMachine ATM)
         {
             this.ATM = ATM;
-            Console.WriteLine("The pincode is correct");
         }
 
         public void CheckCard()
@@ -25,9 +24,12 @@ namespace ConsoleApp1
             throw new NotImplementedException();
         }
 
-        public void CheckPinCode()
+        public bool CheckPinCode(int pin)
         {
-
+            if(pin == ATM.correctPin)
+                return true;
+            else
+                return false;
         }
     }
 }

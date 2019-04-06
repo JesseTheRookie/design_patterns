@@ -4,3 +4,4 @@ C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_4\Opdracht_3\bin\Deb
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_4\Opdracht_3\obj\Debug\Opdracht_3.csproj.CoreCompileInputs.cache
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_4\Opdracht_3\obj\Debug\Opdracht-_3.exe
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_4\Opdracht_3\obj\Debug\Opdracht-_3.pdb
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_4\Opdracht_3\obj\Debug\Opdracht_3.csprojAssemblyReference.cache

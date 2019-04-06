@@ -9,7 +9,7 @@ namespace ConsoleApp1
     interface IATMState
     {
         void CheckCard();
-        void CheckPinCode();
+        bool CheckPinCode(int pin);
         void CheckCash();
     }
 }

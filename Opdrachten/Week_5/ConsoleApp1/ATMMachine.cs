@@ -8,15 +8,7 @@ namespace ConsoleApp1
 {
     class ATMMachine
     {
-        private IATMState machineState;
 
-        //private bool cardPresent; Overbodig lijkt me
-        private int correctPinCode = 1234;
-        private bool noCard;
-        private bool noCash;
-
-        private double amountInMachine;
-        public double AmountInMachine { set { amountInMachine = value; } }
         public ATMMachine(double funds)
         {
             this.AmountInMachine = funds;
@@ -28,50 +20,51 @@ namespace ConsoleApp1
             EnterPincode(pin);
             Console.WriteLine($"Your funds are {amountInMachine}");
         }
+
+        private double amountInMachine;
+        public double AmountInMachine { set { amountInMachine = value; } }
+
+        public int correctPin = 1234;
+
+        private IATMState machineState;
+
+        private CardPresentState CardPresent { get { return CardPresent; } set { GetCardPresentState(); } }
+        private CorrectPinState CorrectPinCode { get { return CorrectPinCode; } set { GetCorrectPinState(); } }
+        private NoCardState NoCard { get { return NoCard; } set { GetNoCardState(); } }
+        private NoCashState NoCash { get { return NoCash; } set { GetNoCashState(); } }
+
+
         public void EnterPincode(int pin)
         {
-            if(pin == correctPinCode)
+            if (CorrectPinCode.CheckPinCode(pin))
             {
-                GetCorrectPinState();
-            }
-            else
-            {
-                RejectCard();
+                machineState = CorrectPinCode;
             }
         }
-        public void GetCardPresentState()
+        public CardPresentState GetCardPresentState()
         {
-            if (!noCard)
-            {
-                SetMachineState(new CardPresentState(this));
-            }
-            else
-            {
-                GetNoCardState();
-            }
+            return new CardPresentState(this);
         }
-        public void GetCorrectPinState()
+        public CorrectPinState GetCorrectPinState()
         {
-            SetMachineState(new CorrectPinState(this));
+            return new CorrectPinState(this);
         }
-        public void GetNoCardState()
+        public NoCardState GetNoCardState()
         {
-            this.noCard = true;
-            SetMachineState(new NoCardState(this));
-            GetCardPresentState();
+            return new NoCardState(this);
         }
-        public void GetNoCashState()
+        public NoCashState GetNoCashState()
         {
-            machineState = new NoCashState(this);
+            return new NoCashState(this);
         }
         public void InsertCard()
         {
-            this.noCard = false;
-            GetCardPresentState();
+            /*this.noCard = false;
+            GetCardPresentState();*/
         }
         public void RejectCard()
         {
-            Console.WriteLine("Your card has been rejected.");
+            //Console.WriteLine("Your card has been rejected.");
         }
         public void SetAmountInMachine(double funds)
         {

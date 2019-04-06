@@ -21,12 +21,8 @@ namespace ConsoleApp1
 
         public void CheckCash()
         {
-            ATM.GetNoCashState();
         }
 
-        public void CheckPinCode()
-        {
-            ATM.GetCorrectPinState();  
-        }
+       // public bool CheckPinCode()
     }
 }
