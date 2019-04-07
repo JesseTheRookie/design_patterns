@@ -11,14 +11,15 @@ namespace Opdracht_2
     {
         static void Main(string[] args)
         {
-            List<IVinylSingle> singles = ReadSingles("files\\singles.csv");
-            List<IVinylAlbum> albums = ReadAlbums("files\\albums.csv");
+            List<IVinylSingle> singles = ReadSingles("..\\..\\files\\singles.csv");
+            List<IVinylAlbum> albums = ReadAlbums("..\\..\\files\\albums.csv");
 
             // create jukebox
             JukeBox jukeBox = new JukeBox(singles);
 
             // add albums to jukebox
             // TODO ...
+            jukeBox.Singles = singles;
 
             // select single
             Console.Write("Select a single to play {0}..{1}: ", 1, jukeBox.Singles.Count);
@@ -47,7 +48,7 @@ namespace Opdracht_2
 
             List<IVinylSingle> singles = new List<IVinylSingle>();
 
-            if (!File.Exists(filename))
+           if (!File.Exists(filename))
                 return singles;
 
             StreamReader reader = new StreamReader(filename);

@@ -20,3 +20,14 @@ C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Opdracht\obj\Debug
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Opdracht\obj\Debug\Opdracht.csproj.CoreCompileInputs.cache
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Opdracht\obj\Debug\Opdracht.exe
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_3\Opdracht\obj\Debug\Opdracht.pdb
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_3\Opdracht\bin\Debug\Opdracht.exe.config
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_3\Opdracht\bin\Debug\Opdracht.exe
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_3\Opdracht\bin\Debug\Opdracht.pdb
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_3\Opdracht\obj\Debug\Opdracht.csprojAssemblyReference.cache
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_3\Opdracht\obj\Debug\Opdracht.ControlPanel.resources
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_3\Opdracht\obj\Debug\Opdracht.Properties.Resources.resources
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_3\Opdracht\obj\Debug\Opdracht.ReisInfoDisplay.resources
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_3\Opdracht\obj\Debug\Opdracht.csproj.GenerateResource.cache
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_3\Opdracht\obj\Debug\Opdracht.csproj.CoreCompileInputs.cache
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_3\Opdracht\obj\Debug\Opdracht.exe
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_3\Opdracht\obj\Debug\Opdracht.pdb

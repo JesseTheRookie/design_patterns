@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Opdracht_2
 {
-    class Single : IVinylSingle
+    public class Single : IVinylSingle
     {
         private string Artist { get; set; }
         private int Ranking { get; set; }
@@ -25,7 +25,7 @@ namespace Opdracht_2
         }
         public void Play()
         {
-            throw new NotImplementedException();
+            Console.WriteLine(this.ToString());
         }
         public void Stop()
         {

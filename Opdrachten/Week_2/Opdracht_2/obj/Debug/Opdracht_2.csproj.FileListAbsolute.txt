@@ -8,3 +8,13 @@ C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_2\Opdracht_2\obj\Deb
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_2\Opdracht_2\obj\Debug\Opdracht_2.csproj.CoreCompileInputs.cache
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_2\Opdracht_2\obj\Debug\ConwayGameOfLife.exe
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_2\Opdracht_2\obj\Debug\ConwayGameOfLife.pdb
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_2\Opdracht_2\bin\Debug\ConwayGameOfLife.exe.config
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_2\Opdracht_2\bin\Debug\ConwayGameOfLife.exe
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_2\Opdracht_2\bin\Debug\ConwayGameOfLife.pdb
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_2\Opdracht_2\obj\Debug\Opdracht_2.csprojAssemblyReference.cache
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_2\Opdracht_2\obj\Debug\ConwayGameOfLife.Form1.resources
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_2\Opdracht_2\obj\Debug\ConwayGameOfLife.Properties.Resources.resources
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_2\Opdracht_2\obj\Debug\Opdracht_2.csproj.GenerateResource.cache
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_2\Opdracht_2\obj\Debug\Opdracht_2.csproj.CoreCompileInputs.cache
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_2\Opdracht_2\obj\Debug\ConwayGameOfLife.exe
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_2\Opdracht_2\obj\Debug\ConwayGameOfLife.pdb

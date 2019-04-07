@@ -19,3 +19,10 @@ C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_1\Opdracht_1\obj\Deb
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_1\Opdracht_1\obj\Debug\Opdracht_1.csproj.CoreCompileInputs.cache
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_1\Opdracht_1\obj\Debug\Opdracht_1.exe
 C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_1\Opdracht_1\obj\Debug\Opdracht_1.pdb
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_1\Opdracht_1\bin\Debug\Opdracht_1.exe.config
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_1\Opdracht_1\bin\Debug\Opdracht_1.exe
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_1\Opdracht_1\bin\Debug\Opdracht_1.pdb
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_1\Opdracht_1\obj\Debug\Opdracht_1.csprojAssemblyReference.cache
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_1\Opdracht_1\obj\Debug\Opdracht_1.csproj.CoreCompileInputs.cache
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_1\Opdracht_1\obj\Debug\Opdracht_1.exe
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_1\Opdracht_1\obj\Debug\Opdracht_1.pdb
