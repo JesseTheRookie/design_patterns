@@ -14,18 +14,27 @@ namespace ConsoleApp1
         {
             this.ATM = ATM;
         }
-
-        public void CheckCard()
+        public void EnterPincode(int pin)
         {
             throw new NotImplementedException();
         }
 
-        public void CheckCash()
+        public void InsertCard()
         {
             throw new NotImplementedException();
         }
 
-        public void CheckPinCode()
+        public void RejectCard()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SetAmountInMachine(int amount)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void WithdrawCash(int cash)
         {
             throw new NotImplementedException();
         }

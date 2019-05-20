@@ -9,23 +9,33 @@ namespace ConsoleApp1
     class NoCardState : IATMState
     {
         private ATMMachine ATM;
-        public NoCardState(ATMMachine ATM)
+
+        public NoCardState(ATMMachine atm)
         {
-            this.ATM = ATM;
-            Console.WriteLine("No card present");
+            this.ATM = atm;
         }
 
-        public void CheckCard()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void CheckCash()
+        public void EnterPincode(int pin)
         {
             throw new NotImplementedException();
         }
 
-        public void CheckPinCode()
+        public void InsertCard()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RejectCard()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SetAmountInMachine(int amount)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void WithdrawCash(int cash)
         {
             throw new NotImplementedException();
         }

@@ -9,20 +9,35 @@ namespace ConsoleApp1
     class CardPresentState : IATMState
     {
         private ATMMachine ATM;
-        public CardPresentState(ATMMachine ATM)
+
+        public CardPresentState(ATMMachine atm)
         {
-            this.ATM = ATM;
+            this.ATM = atm;
         }
 
-        public void CheckCard()
+        public void EnterPincode(int pin)
         {
-            
+            throw new NotImplementedException();
         }
 
-        public void CheckCash()
+        public void InsertCard()
         {
+            throw new NotImplementedException();
         }
 
-       // public bool CheckPinCode()
+        public void RejectCard()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SetAmountInMachine(int amount)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void WithdrawCash(int cash)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

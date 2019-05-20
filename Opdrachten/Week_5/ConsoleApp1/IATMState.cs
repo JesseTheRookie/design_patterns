@@ -8,8 +8,10 @@ namespace ConsoleApp1
 {
     interface IATMState
     {
-        void CheckCard();
-        bool CheckPinCode(int pin);
-        void CheckCash();
+        void EnterPincode(int pin);
+        void InsertCard();
+        void RejectCard();
+        void SetAmountInMachine(int amount);
+        void WithdrawCash(int cash);
     }
 }

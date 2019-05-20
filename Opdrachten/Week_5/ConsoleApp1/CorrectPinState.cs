@@ -9,27 +9,35 @@ namespace ConsoleApp1
     class CorrectPinState : IATMState
     {
         private ATMMachine ATM;
-        public CorrectPinState(ATMMachine ATM)
+
+        public CorrectPinState(ATMMachine atm)
         {
-            this.ATM = ATM;
+            this.ATM = atm;
         }
 
-        public void CheckCard()
+        public void EnterPincode(int pin)
+        {
+
+        }
+
+        public void InsertCard()
         {
             throw new NotImplementedException();
         }
 
-        public void CheckCash()
+        public void RejectCard()
         {
             throw new NotImplementedException();
         }
 
-        public bool CheckPinCode(int pin)
+        public void SetAmountInMachine(int amount)
         {
-            if(pin == ATM.correctPin)
-                return true;
-            else
-                return false;
+            throw new NotImplementedException();
+        }
+
+        public void WithdrawCash(int cash)
+        {
+            throw new NotImplementedException();
         }
     }
 }
