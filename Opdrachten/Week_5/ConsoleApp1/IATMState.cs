@@ -12,6 +12,6 @@ namespace ConsoleApp1
         void InsertCard();
         void RejectCard();
         void SetAmountInMachine(int amount);
-        void WithdrawCash(int cash);
+        void WithdrawCash(int cash, int amountInMachine);
     }
 }

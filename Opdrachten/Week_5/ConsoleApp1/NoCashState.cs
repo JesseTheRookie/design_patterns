@@ -34,7 +34,7 @@ namespace ConsoleApp1
             throw new NotImplementedException();
         }
 
-        public void WithdrawCash(int cash)
+        public void WithdrawCash(int cash, int amountInMachine)
         {
             throw new NotImplementedException();
         }

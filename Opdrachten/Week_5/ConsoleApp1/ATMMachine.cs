@@ -8,55 +8,46 @@ namespace ConsoleApp1
 {
     class ATMMachine
     {
-        private double amountInMachine;
-        public double AmountInMachine { set { amountInMachine = value; } }
+        private int amountInMachine;
+        public int AmountInMachine { set { amountInMachine = value; } }
 
         public int correctPin = 1234;
 
         private IATMState machineState;
 
-        private CardPresentState CardPresent { get { return CardPresent; } set { new CardPresentState(this); } }
-        private CorrectPinState CorrectPinCode { get { return CorrectPinCode; } set { new CorrectPinState(this); } }
-        private NoCardState NoCard { get { return NoCard; } set { new NoCardState(this); } }
-        private NoCashState NoCash { get { return NoCash; } set { new NoCashState(this); } }
+        //private CardPresentState cardPresent = new CardPresentState(this); Mag dit niet omdat ik een object meegeef aan een andere class?
+        private CardPresentState cardPresent;
+        private CorrectPinState correctPinCode;
+        private NoCardState noCard;
+        private NoCashState noCash;
 
-        public ATMMachine()
+        public CardPresentState CardPresent { get { return cardPresent; } private set { cardPresent = new CardPresentState(this); } }
+        public CorrectPinState CorrectPinCode { get { return correctPinCode; } private set { correctPinCode = new CorrectPinState(this); } }
+        public NoCardState NoCard { get { return noCard; } private set { noCard = new NoCardState(this); } }
+        public NoCashState NoCash { get { return noCash; } private set { noCash = new NoCashState(this); } }
+
+        public ATMMachine(int initialFunds)
         {
-            this.machineState = NoCard;
-
-            /*
-            Console.WriteLine("Insert your card, please");
-            CardPresent.CheckCard();
-            Console.Write("Enter pincode: ");
-            int pin = int.Parse(Console.ReadLine());
-            EnterPincode(pin);
-            Console.WriteLine($"Your funds are {amountInMachine}");
-            */
+            this.machineState = this.NoCard;
+            this.machineState.SetAmountInMachine(initialFunds);
         }
 
         public void EnterPincode(int pin)
         {
-            this.machineState.CheckPinCode();
+            this.machineState.EnterPincode(pin);
         }
 
         public void InsertCard()
         {
-            SetMachineState(CardPresent);
+            this.SetMachineState(this.CardPresent);
         }
         public void RejectCard()
         {
-            Console.WriteLine("Your card has been rejected");
+            this.machineState.RejectCard();
         }
-        public void SetAmountInMachine(double funds)
+        public void SetAmountInMachine(int funds)
         {
-            if(funds > 0)
-            {
-                this.AmountInMachine = funds;
-            }
-            else
-            {
-                this.machineState = NoCash;
-            }            
+            this.machineState.SetAmountInMachine(funds);
         }
         public void SetMachineState(IATMState state)
         {
@@ -64,14 +55,7 @@ namespace ConsoleApp1
         }
         public void WithdrawCash(int amount)
         {
-            if(amount > amountInMachine)
-            {
-                Console.WriteLine($"The money in the machine is {amountInMachine}. Please, try again");
-            }
-            else
-            {
-                Console.WriteLine($"{amount} has been withdrawn from machine.");
-            }
+            this.machineState.WithdrawCash(amount, amountInMachine);
         }
     }
 }

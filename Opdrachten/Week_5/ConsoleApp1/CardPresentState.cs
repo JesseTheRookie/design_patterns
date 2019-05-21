@@ -17,15 +17,23 @@ namespace ConsoleApp1
 
         public void EnterPincode(int pin)
         {
-            throw new NotImplementedException();
+            if (ATM.correctPin == pin)
+            {
+                Console.WriteLine("You have entered the correct pincode");
+                ATM.SetMachineState(ATM.CorrectPinCode);
+            }
+            else
+            {
+                Console.WriteLine("Wrong pincode, please try again");
+            }
+        }
+        public void RejectCard()
+        {
+            Console.WriteLine("Your card has been rejected");
+            this.ATM.SetMachineState(this.ATM.NoCard);
         }
 
         public void InsertCard()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void RejectCard()
         {
             throw new NotImplementedException();
         }
@@ -35,7 +43,7 @@ namespace ConsoleApp1
             throw new NotImplementedException();
         }
 
-        public void WithdrawCash(int cash)
+        public void WithdrawCash(int cash, int amountInMachine)
         {
             throw new NotImplementedException();
         }

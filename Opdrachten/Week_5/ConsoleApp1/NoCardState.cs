@@ -17,25 +17,25 @@ namespace ConsoleApp1
 
         public void EnterPincode(int pin)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Please insert your card before entering your pincode");
         }
 
         public void InsertCard()
         {
-            throw new NotImplementedException();
+            this.ATM.SetMachineState(this.ATM.CardPresent);
         }
 
         public void RejectCard()
         {
-            throw new NotImplementedException();
+            //Can't reject a card that isn't there
         }
 
         public void SetAmountInMachine(int amount)
         {
-            throw new NotImplementedException();
+            this.ATM.AmountInMachine = amount;
         }
 
-        public void WithdrawCash(int cash)
+        public void WithdrawCash(int cash, int amountInMachine)
         {
             throw new NotImplementedException();
         }

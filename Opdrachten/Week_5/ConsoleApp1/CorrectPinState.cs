@@ -17,7 +17,7 @@ namespace ConsoleApp1
 
         public void EnterPincode(int pin)
         {
-
+            //this shouldn't be possible
         }
 
         public void InsertCard()
@@ -27,7 +27,8 @@ namespace ConsoleApp1
 
         public void RejectCard()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Your card has been rejected");
+            this.ATM.SetMachineState(this.ATM.NoCard);
         }
 
         public void SetAmountInMachine(int amount)
@@ -35,9 +36,22 @@ namespace ConsoleApp1
             throw new NotImplementedException();
         }
 
-        public void WithdrawCash(int cash)
+        public void WithdrawCash(int cash, int amountInMachine)
         {
-            throw new NotImplementedException();
+            if(cash < amountInMachine)
+            {
+                this.ATM.SetAmountInMachine(amountInMachine - cash);
+                this.ATM.SetMachineState(this.ATM.NoCard);
+            }
+            else if (cash == amountInMachine)
+            {
+                this.ATM.SetAmountInMachine(amountInMachine - cash);
+                this.ATM.SetMachineState(this.ATM.NoCash);
+            }
+            else
+            {
+                Console.WriteLine("Not enough cash available in the machine");
+            }
         }
     }
 }

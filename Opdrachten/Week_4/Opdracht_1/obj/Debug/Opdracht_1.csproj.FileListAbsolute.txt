@@ -10,3 +10,4 @@ C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\W
 C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_4\Opdracht_1\obj\Debug\Opdracht_1.csproj.CoreCompileInputs.cache
 C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_4\Opdracht_1\obj\Debug\Opdracht_-1.exe
 C:\Users\jesse\OneDrive - Hogeschool Inholland\Repo\design_patterns\Opdrachten\Week_4\Opdracht_1\obj\Debug\Opdracht_-1.pdb
+C:\Users\jesse\source\repos\design_patterns\Opdrachten\Week_4\Opdracht_1\obj\Debug\Opdracht_1.csprojAssemblyReference.cache

@@ -10,7 +10,20 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            ATMMachine atm = new ATMMachine(2000);
 
+            atm.InsertCard();
+            atm.RejectCard();
+
+            atm.InsertCard();
+            atm.EnterPincode(1234);
+            atm.WithdrawCash(1500);
+
+            atm.InsertCard();
+            atm.EnterPincode(1234);
+            atm.WithdrawCash(750);
+
+            Console.ReadKey();
         }
     }
 }
